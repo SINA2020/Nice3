@@ -83,20 +83,20 @@ function create_config( )
 	"write",
 	"ping"	
 	},
-    sudo_users = {267785153},
+    sudo_users = {236496364},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Titanbot v.1
+    info_text = [[》Nicebot v.1
 
 
-》https://github.com/TitanTeams/Titanbot
+》https://t.me/Nice20Team
 
 》Admins :
-》@mohammadrezajiji 《
+》@Nice20Admin 《
 		
 》channel :
-》@Titanteams
+》@Nice20Team
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
