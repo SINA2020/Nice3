@@ -1,5 +1,5 @@
 --Begin Tools.lua :)
-local SUDO = 267785153 -- put Your ID here! <===
+local SUDO = 236496364 -- put Your ID here! <===
 function exi_files(cpath)
     local files = {}
     local pth = cpath
@@ -1093,12 +1093,12 @@ matches[3] then
     local send_file = 
 "./"..matches[2].."/"..matches[3]
     tdcli.sendDocument(msg.chat_id_, msg.id_,0, 
-1, nil, send_file, '@titantims', dl_cb, nil)
+1, nil, send_file, '@Nice20Team', dl_cb, nil)
   end
   if matches[1]:lower() == "sentfhfhftfdplug" and matches[2] then
       local plug = "./plugins/"..matches[2]..".lua"
     tdcli.sendDocument(msg.chat_id_, msg.id_,0, 
-1, nil, plug, '@titantims', dl_cb, nil)
+1, nil, plug, '@Nice20Team', dl_cb, nil)
     end
   end
 
@@ -1190,11 +1190,11 @@ local hash = 'auto_leave_bot'
 
 if matches[1] == "helptools" and is_mod(msg) then
 if not lang then
-text = [[@titanteams]]
+text = [[@Nice20Team]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 else
 
-text = [[@titanteams]]
+text = [[@Nice20Team]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 end
 
