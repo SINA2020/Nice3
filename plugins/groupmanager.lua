@@ -4263,8 +4263,8 @@ _ترجمه en سلام_
 🔹تبدیل استیکر‌ به عکس
 
 *___________________________*
-🔖*Channel*: @TitanTeams
-🤖*Tιтαη вσт*
+🔖*Channel*: @Nice20Team
+🤖*Nice вσт*
 ]]
 return text
 end
@@ -4436,9 +4436,9 @@ end
     data[tostring(chat)]['setwelcome'] = matches[2]
       save_data(_config.moderation.data, data)
        if not lang then
-    return "_Welcome Message Has Been Set To :_\n*"..matches[2].."*\n\n*You can use :*\n_{gpname} Group Name_\n_{rules} ➣ Show Group Rules_\n_{name} ➣ New Member First Name_\n_{username} ➣ New Member Username_\n@TitanTeams"
+    return "_Welcome Message Has Been Set To :_\n*"..matches[2].."*\n\n*You can use :*\n_{gpname} Group Name_\n_{rules} ➣ Show Group Rules_\n_{name} ➣ New Member First Name_\n_{username} ➣ New Member Username_\n@Nice20Team"
        else
-    return "_پیام خوشآمد گویی تنظیم شد به :_\n*"..matches[2].."*\n\n*شما میتوانید از*\n_{gpname} نام گروه_\n_{rules} ➣ نمایش قوانین گروه_\n_{name} ➣ نام کاربر جدید_\n_{username} ➣ نام کاربری کاربر جدید_\n_استفاده کنید_\n@TitanTeams"
+    return "_پیام خوشآمد گویی تنظیم شد به :_\n*"..matches[2].."*\n\n*شما میتوانید از*\n_{gpname} نام گروه_\n_{rules} ➣ نمایش قوانین گروه_\n_{name} ➣ نام کاربر جدید_\n_{username} ➣ نام کاربری کاربر جدید_\n_استفاده کنید_\n@Nice20Team"
         end
      end
   end
